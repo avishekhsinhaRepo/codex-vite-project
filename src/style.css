@@ -18,3 +18,22 @@ body {
   height: 200px;
   object-fit: cover;
 }
+
+
+.site-footer {
+  background-color: #0f1d33;
+  color: #d9e2ef;
+}
+
+.site-footer h2 {
+  color: #ffffff;
+}
+
+.site-footer a {
+  color: #a9d1ff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}

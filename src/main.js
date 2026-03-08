@@ -104,6 +104,37 @@ app.innerHTML = `
       <div id="results" class="row g-4"></div>
     </section>
   </main>
+
+  <footer class="site-footer py-5 mt-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h2 class="h5">Follow Us</h2>
+          <ul class="list-unstyled m-0">
+            <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="h5">Contact Us</h2>
+          <ul class="list-unstyled m-0">
+            <li>Email: support@cruisebooking.com</li>
+            <li>Phone: +1 (800) 555-0142</li>
+            <li>Mon - Fri: 9:00 AM - 6:00 PM</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="h5">Important Links</h2>
+          <ul class="list-unstyled m-0">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 `
 
 const resultsEl = document.querySelector('#results')
